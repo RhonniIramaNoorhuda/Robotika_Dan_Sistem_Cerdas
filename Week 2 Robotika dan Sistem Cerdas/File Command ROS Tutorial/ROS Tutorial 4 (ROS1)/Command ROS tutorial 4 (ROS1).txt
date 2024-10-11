@@ -1,0 +1,12 @@
+Command ROS tutorial 4 (ROS1)
+- cd catkin_ws/src/
+- ls
+- catkin_create_pkg my_robot_controller rospy turtlesim
+- clear
+- cd my_robot_controller/
+- cd ..
+- sudo snap install code --classic
+- code .
+- cd ..
+- catkin_make
+- cd build/

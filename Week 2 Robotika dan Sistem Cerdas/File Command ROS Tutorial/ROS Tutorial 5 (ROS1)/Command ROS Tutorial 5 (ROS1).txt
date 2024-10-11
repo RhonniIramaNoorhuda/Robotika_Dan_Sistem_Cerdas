@@ -1,0 +1,20 @@
+Command ROS Tutorial 5 (ROS1)
+- cd catkin_ws/src/my_robot_controller/
+- ls
+- mkdir scripts
+- cd scripts/
+- touch my_first_node.py
+- chmod +x my_first_node.py
+- cd ../../..
+- cd src/
+- code .
+- cd my_robot_controller/scripts/
+- python3 my_first_node.py
+- roscore
+- gedit ~/.bashrc
+- ./my_first_node.py
+- cd
+- rosrun my_robot_controller my_first_node.py
+- rosnode list
+- rosnode kill /test_node
+- rqt_graph
