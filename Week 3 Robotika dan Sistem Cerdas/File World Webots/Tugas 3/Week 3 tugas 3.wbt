@@ -1,0 +1,40 @@
+#VRML_SIM R2023b utf8
+
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/backgrounds/protos/TexturedBackground.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/backgrounds/protos/TexturedBackgroundLight.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/floors/protos/RectangleArena.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/robots/gctronic/e-puck/protos/E-puck.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/apartment_structure/protos/WallPlug.proto"
+
+WorldInfo {
+}
+Viewpoint {
+  orientation 0.27126560121894167 -0.1754036468435461 -0.9463870953628386 4.239895517347607
+  position 0.7508423977130283 -0.9072078719284393 0.6859450662380924
+}
+TexturedBackground {
+}
+TexturedBackgroundLight {
+}
+RectangleArena {
+  rotation 0 1 0 4.692820414042842e-06
+}
+E-puck {
+  hidden position_0_0 261.90467023075826
+  hidden position_0_1 262.7618665517595
+  hidden linearVelocity_0 0.0001491366524447704 1.3536118252275661e-05 2.8449376848671896e-08
+  hidden angularVelocity_0 -0.0009024028669297719 0.009942387035276612 4.243140980800748e-09
+  hidden rotation_1 0 -1 0 1.9891126707843756
+  hidden linearVelocity_1 0.00019884791553709168 1.804807183612504e-05 -1.0653288345010241e-09
+  hidden angularVelocity_1 -0.0009024028676808286 0.009942387042503262 4.457267984023235e-09
+  hidden rotation_2 0 -1 0 1.1319163497831217
+  hidden linearVelocity_2 0.00019884791557572674 1.8048071234439582e-05 -1.066657080014796e-09
+  hidden angularVelocity_2 -0.0009024028677989626 0.009942387042501584 4.029010997151623e-09
+  translation 0.32527836629587387 0.06240604238526324 -6.54835597577539e-05
+  rotation -0.0003847162140186858 0.00859855601554219 0.999962957727876 0.09051854184397519
+  controller "my_controller3"
+}
+WallPlug {
+  translation 0.45 0.0599994 0.04
+  rotation 1.32679e-06 1 4.7949e-09 3.14159
+}
