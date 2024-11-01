@@ -1,0 +1,10 @@
+Command ROS Week 5 :
+- mkdir ~/motion_planning
+- cd
+- cd ~/ros_motion_planning
+- nano dijkstra_planner.py
+- python3 dijkstra_planner.py
+- nano a_star_planner.py
+- python3 a_star_planner.py
+- nano cell_decomposition.py
+- python3 cell_decomposition.py
