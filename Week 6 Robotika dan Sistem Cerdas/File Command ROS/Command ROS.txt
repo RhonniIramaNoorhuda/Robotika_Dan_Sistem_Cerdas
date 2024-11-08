@@ -1,0 +1,36 @@
+Command ROS	:
+Tugas 1 :
+- mkdir -p ~/catkin_ws/src
+- cd ~/PRM
+- catkin_make
+- echo "source ~/PRM/devel/setup.bash" >> ~/.bashrc
+- source ~/.bashrc
+- cd ~/PRM/src
+- catkin_create_pkg prm_planner rospy std_msgs
+- cd prm_planner
+- mkdir -p src config launch
+- nano ~/PRM/src/prm_planner/src/prm.py
+- chmod +x ~/PRM/src/prm_planner/src/prm.py
+- nano ~/PRM/src/prm_planner/config/params.yaml
+- nano ~/PRM/src/prm_planner/launch/prm.launch
+- cd ~/PRM
+- catkin_make
+- source devel/setup.bash
+- roslaunch prm_planner prm.launch
+- roscore
+
+Tugas 2 :
+- git clone https://github.com/nishadg246/Probabilistic-Roadmap
+- cd Probabilistic-Roadmap
+- catkin_make
+- source devel/setup.bash
+- rosrun rrt-planning prm
+- rviz
+
+Tugas 3 :
+- roscore
+- git clone https://github.com/malintha/rrt-ros
+- cd rrt-ros
+- catkin_make
+- source devel/setup.bash
+- rosrun rrt-planning rrt
