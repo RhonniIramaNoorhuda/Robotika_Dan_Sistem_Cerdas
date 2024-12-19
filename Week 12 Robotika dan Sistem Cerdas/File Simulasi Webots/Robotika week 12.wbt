@@ -1,0 +1,75 @@
+#VRML_SIM R2023b utf8
+
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/backgrounds/protos/TexturedBackground.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/backgrounds/protos/TexturedBackgroundLight.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/floors/protos/RectangleArena.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/lights/protos/FloorLight.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/factory/containers/protos/CardboardBox.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/factory/containers/protos/WoodenBox.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/robots/adept/pioneer3/protos/Pioneer3dx.proto"
+
+WorldInfo {
+}
+Viewpoint {
+  orientation -0.027829118476944782 0.9973381806692923 0.06739505578351035 0.7851817493512153
+  position -7.014228847192549 -0.4673362217760112 6.916206947195925
+}
+TexturedBackground {
+}
+TexturedBackgroundLight {
+}
+RectangleArena {
+  floorSize 5 5
+}
+WoodenBox {
+  translation -1.18088 -1.70406 0.3
+  rotation 0 0 1 0.785398
+  name "wooden box(2)"
+}
+Pioneer3dx {
+  hidden position_0_0 -6.2832218962863475
+  hidden position_0_1 263.2481513896201
+  hidden position_0_2 259.8689684642205
+  hidden linearVelocity_0 -0.26614310522465134 -0.4361039664955694 1.3300995165194774e-09
+  hidden angularVelocity_0 -1.0484046582736115e-06 -1.8329087461661525e-06 2.637153016487035e-05
+  hidden rotation_1 -0.577336186035452 0.5773573106372671 0.5773573106385164 4.188769182320128
+  hidden position_1_0 -296.59904811137267
+  hidden linearVelocity_1 -0.26614821499996977 -0.4361008484864747 1.1655693644962792e-08
+  hidden angularVelocity_1 -9.231544322857579e-07 -1.6267352352715508e-06 2.6468485427284098e-05
+  hidden rotation_2 1 0 0 4.993846633247484
+  hidden linearVelocity_2 -0.2661507012810681 -0.4360993319961921 1.2782311090435636e-08
+  hidden angularVelocity_2 11.629254823231452 -7.097451486345605 5.605606162029709e-05
+  hidden rotation_4 0.6668636373919926 -0.6668636571558587 -0.33254436078369215 2.4995119249670954
+  hidden linearVelocity_4 -0.26614372274088305 -0.43610041677634087 3.3938842973816935e-07
+  hidden angularVelocity_4 4.472888782332856 -2.7296265584651844 3.267618678271503e-05
+  hidden rotation_9 0.31940017788295194 -0.3194002495070222 0.8921698307963516 4.598537010505349
+  hidden linearVelocity_9 -0.2661371644798739 -0.436110750693381 -3.410151223923434e-07
+  hidden angularVelocity_9 4.472890129186361 -2.7296263368965077 3.10881171816109e-05
+  translation -0.08019166036059958 -1.8307583422464853 0.09481477902572726
+  rotation -0.017309902969627047 -0.009715633080070323 -0.9998029674556059 2.118893107165352
+}
+WoodenBox {
+  translation -1.76 0 0.3
+}
+WoodenBox {
+  translation -1.2657 1.42121 0.3
+  rotation 0 0 1 -0.785395307179586
+  name "wooden box(1)"
+}
+CardboardBox {
+  translation 1.04228 1.59095 0.3
+  rotation 0 0 1 0.785398
+  name "cardboard box(2)"
+}
+FloorLight {
+  translation 0.02 0 0.01
+  rotation 0 0 1 -0.261795307179586
+}
+CardboardBox {
+  translation 1.51 0 0.3
+}
+CardboardBox {
+  translation 1.05359 -1.67576 0.3
+  rotation 0 0 1 -0.785395307179586
+  name "cardboard box(1)"
+}
